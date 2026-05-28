@@ -104,5 +104,39 @@ img:not(a img):hover {
 
 .reproductor audio{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 1px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#btnArriba {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    width: 50px;
+    height: 50px;
+
+    background: #111;
+    color: white;
+
+    text-decoration: none;
+    font-size: 28px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+    transition: 0.3s;
+}
+
+#btnArriba:hover {
+    background: #333;
+    transform: scale(1.1);
 }
